@@ -4,11 +4,7 @@ body {
     background-repeat: no-repeat;
 }
 
-img {
-    border-radius: 50%;
-    width: 500px;
-    height: 500px;
-}
+
 
 
 h1 {
@@ -40,4 +36,66 @@ h2 {
     padding: 20px;
     font-size: 18;
     text-align: center;
+}
+
+   
+}
+img {
+    border-radius: 50%;
+    width: 500px;
+    height: 500px;
+}
+
+.menu{
+    list-style: none;
+    position: fixed;
+    top: 0px;  
+    right:10px;
+    cursor: pointer;
+    z-index: 10;    
+    padding:2%;
+}
+.links {
+    float: left;
+    color: fuchsia;
+    padding-top: 5px;
+    padding-left: 9px;
+    padding-right: 9px;
+    padding-bottom: 5px;
+    font-family: fantasy;
+    font-size: 20px
+}
+.links:hover {
+    background-color:coral;
+    color: aliceblue;
+}
+html {
+    scroll-behavior: smooth;
+}
+a {
+    text-decoration: none;
+}
+.article:hover {
+    color:fuchsia;
+}
+section{
+    background-color:sandybrown;    
+}
+#ABOUT{
+    padding:5%;
+}
+section  h1{
+    background: white;
+    padding:1%;
+    color:sienna;
+    font-weight: bold;
+    text-align: center;
+}
+section h2{
+    color:white;
+    font-weight:bold;
+    text-align: center;
+}
+P{
+    padding: 2%;
 }
