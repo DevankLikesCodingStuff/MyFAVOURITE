@@ -3,26 +3,11 @@ body {
     background: linear-gradient(#4078c0 20%, #c9510c 100%);
     background-repeat: no-repeat;
 }
-
-
-
-
-h1 {
-    text-shadow: 2px 2px #F8BBD0;
-    font-size: 40px;
-}
-
-
 p {
     font-size: 25px;
     color: #6A1B9A;
 
 
-}
-
-h2 {
-    font-size: 20px;
-    color: #A5D8EF;
 }
 
 .line {
@@ -96,6 +81,4 @@ section h2{
     font-weight:bold;
     text-align: center;
 }
-P{
-    padding: 2%;
-}
+
